@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS</title>
+    <style>
+        .main {
+            width: 100%;
+            background-color: aqua;
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px; */
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-rows: 200px 200px 200px; */
+            grid-template-rows: 200px auto 200px;
+        }
+        
+        .bg1 {
+            background-color: blueviolet;
+        }
+        
+        .bg2 {
+            background-color: brown;
+        }
+        
+        .bg3 {
+            background-color: darkblue;
+        }
+        
+        .bg4 {
+            background-color: darkgoldenrod;
+        }
+        
+        .bg5 {
+            background-color: darkgreen;
+        }
+        
+        .bg6 {
+            background-color: darkred;
+        }
+        
+        .bg7 {
+            background-color: darkslategray;
+        }
+        
+        .bg8 {
+            background-color: deepskyblue;
+        }
+        
+        .bg9 {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="bg1">bg 1</div>
+        <div class="bg2">bg 2</div>
+        <div class="bg3">bg 3</div>
+        <div class="bg4">bg 4</div>
+        <div class="bg5">bg 5</div>
+        <div class="bg6">bg 6</div>
+        <div class="bg7">bg 7</div>
+        <div class="bg8">bg 8</div>
+        <div class="bg9">bg 9</div>
+    </div>
+</body>
+
+</html>
